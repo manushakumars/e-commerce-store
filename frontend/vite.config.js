@@ -10,7 +10,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://fragile-rabbit-anusha-58076d08.koyeb.app/",
+        target: "https://e-commerce-store-hase.onrender.com",
         changeOrigin: true
       }
     }
